@@ -14,6 +14,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+       // let db = Firestore.firestore()
+        
+       // var content:String
+       // db.collection("twitter").getDocuments() { (querySnapshot, err) in
+       //     if let err = err {
+       //         print("Error getting documents: \(err)")
+       //     } else {
+        //        for document in querySnapshot!.documents {
+        //            content.append(document.data())
+        //            print("\(document.documentID) => \(document.data())")
+        //        }
+       //     }
+       // }
+        //todo show content to the UI
+        
     }
 
     @IBAction func loginTapped(_ sender: UIButton) {
