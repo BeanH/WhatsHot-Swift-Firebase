@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187A77C8217422DE00E581E8 /* YoutubeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A77C7217422DE00E581E8 /* YoutubeTableViewCell.swift */; };
+		187A7806217AE85700E581E8 /* YoutubeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187A7805217AE85700E581E8 /* YoutubeTableViewController.swift */; };
 		1F5CAD21216D6BB900746EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5CAD20216D6BB900746EC7 /* AppDelegate.swift */; };
 		1F5CAD23216D6BB900746EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5CAD22216D6BB900746EC7 /* ViewController.swift */; };
 		1F5CAD26216D6BB900746EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5CAD24216D6BB900746EC7 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		0B97D273A86901CF35514174 /* Pods_WhatsHotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsHotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187A77C7217422DE00E581E8 /* YoutubeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeTableViewCell.swift; sourceTree = "<group>"; };
+		187A7805217AE85700E581E8 /* YoutubeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeTableViewController.swift; sourceTree = "<group>"; };
 		1AFDD9DD2CDA602F0BE0287E /* Pods-WhatsHotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsHotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhatsHotTests/Pods-WhatsHotTests.release.xcconfig"; sourceTree = "<group>"; };
 		1F5CAD1D216D6BB900746EC7 /* WhatsHot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsHot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5CAD20216D6BB900746EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				1F5CAD4E216D6C1700746EC7 /* GoogleService-Info.plist */,
 				1F5CAD20216D6BB900746EC7 /* AppDelegate.swift */,
 				1F5CAD22216D6BB900746EC7 /* ViewController.swift */,
+				187A77C7217422DE00E581E8 /* YoutubeTableViewCell.swift */,
+				187A7805217AE85700E581E8 /* YoutubeTableViewController.swift */,
 				1F5CAD24216D6BB900746EC7 /* Main.storyboard */,
 				1F5CAD27216D6BBA00746EC7 /* Assets.xcassets */,
 				1F5CAD29216D6BBA00746EC7 /* LaunchScreen.storyboard */,
@@ -468,7 +474,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187A77C8217422DE00E581E8 /* YoutubeTableViewCell.swift in Sources */,
 				1F5CAD23216D6BB900746EC7 /* ViewController.swift in Sources */,
+				187A7806217AE85700E581E8 /* YoutubeTableViewController.swift in Sources */,
 				1F5CAD21216D6BB900746EC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
