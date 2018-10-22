@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class YoutubeTableViewController: UITableViewController {
     
@@ -34,6 +35,23 @@ class YoutubeTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
+    }
+    
+    func getYoutubeData () -> [Any] {
+        let db = Firestore.firestore()
+        var result = [Any]()
+        
+        db.collection("youtube").getDocuments() { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+            } else {
+    
+                for document in querySnapshot!.documents {
+                    result.append(document.data())
+                }
+            }
+        }
+        return result
     }
 
     /*
